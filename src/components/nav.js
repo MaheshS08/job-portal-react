@@ -1,5 +1,5 @@
 import React from "react";
-const nav = () => {
-	return <div>hii</div>;
+const Nav = () => {
+	return <div>Hello</div>;
 };
 export default Nav;
