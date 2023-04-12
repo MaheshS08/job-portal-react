@@ -97,10 +97,7 @@
 	display: inline-block;
 	cursor: pointer;
 }
-.main {
-	/* display: block; */
- /* position: relative; */
-}
+
 .main .img-container {
 	max-height: 100%;
 	max-width: 100%;
