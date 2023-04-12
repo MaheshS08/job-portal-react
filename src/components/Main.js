@@ -2,6 +2,7 @@ import React from "react";
 // import bg from "/images/bg.jpg";
 const Main = () => {
 	return (
+	
 		<div className="main">
 			<div
 				className="img-container"
@@ -24,6 +25,7 @@ const Main = () => {
                 <div className="heading-2">Each month, more than 3 million job seekers turn to website in their search for work, making over 140,000 applications every single day</div>
             </div>
 		</div>
+		 
 	);
 };
 export default Main;

@@ -1,11 +1,14 @@
 import "./App.css";
-import Category from "./components/Category";
+import Main from "./components/Main";
+
 import Navbar from "./components/Navbar";
+import Category from "./components/Category";
 function App() {
   return (
-    <div className="App">
+    <div className="App">   
       <Navbar />
-      <Category />
+      <Main />
+     <Category/>
     </div>
   );
 }

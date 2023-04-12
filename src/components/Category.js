@@ -1,7 +1,7 @@
 import React from "react";
 const Category = () => {
   return (
-    <div>
+    <div class="category">
       <div className="cat-1">
         <h2>
           <b>Browse by Category</b>
@@ -14,7 +14,7 @@ const Category = () => {
       <div className="row-2">
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img1.svg" />
+            <img src="./assets/images/img-1.svg" />
           </div>
           <div class="text1">
             <a href="#">
@@ -29,21 +29,23 @@ const Category = () => {
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-2.svg" />
+            <img src="./assets/images/img-2.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Content Writer</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+
+            <h6 className="h1-1">
+              {" "}
+              <a href="#">4 jobs available</a>
+            </h6>
           </div>
         </div>
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-3.svg" />
+            <img src="./assets/images/img-3.svg" />
           </div>
           <div class="text1">
             <a href="#">
@@ -58,71 +60,77 @@ const Category = () => {
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-4.svg" />
+            <img src="./assets/images/img-4.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Market Research</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+
+            <h6 className="h1-1">
+              {" "}
+              <a href="#">4 jobs available </a>
+            </h6>
           </div>
         </div>
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-5.svg" />
+            <img src="./assets/images/img-5.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Software</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+
+            <h6 className="h1-1">
+              <a href="#">4 jobs available </a>
+            </h6>
           </div>
         </div>
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-6.svg" />
+            <img src="./assets/images/img-6.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Finance</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+
+            <h6 className="h1-1">
+              <a href="#">4 jobs available</a>
+            </h6>
           </div>
         </div>
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-7.svg" />
+            <img src="./assets/images/img-7.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Management</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+
+            <h6 className="h1-1">
+              {" "}
+              <a href="#">4 jobs available</a>
+            </h6>
           </div>
         </div>
 
         <div className="container">
           <div className="cat-2">
-            <img src="./assests/images/img-8.svg" />
+            <img src="./assets/images/img-8.svg" />
           </div>
           <div class="text1">
             <a href="#">
               <b>Marketing and sale</b>
             </a>
-            <a href="#">
-              <h6 className="h1-1">4 jobs available</h6>
-            </a>
+            <h6 className="h1-1">
+              <a href="#">4 jobs available</a>
+            </h6>
           </div>
         </div>
       </div>
