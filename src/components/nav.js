@@ -1,4 +1,4 @@
 import React from "react";
 const Nav = () => {
-	return <div>hi</div>;
+	return <div>hello</div>;
 };
