@@ -1,0 +1,382 @@
+    1  git config --global user.name "MaheshS08"
+    2  git config --global user.email "mahesh.sambharam@gmail.com"
+    3  git config user.name
+    4  git config --list
+    5  git config --global user.name "MaheshS08"
+    6  git config --global user.email "mahesh.sambharam@gmail.com"
+    7  git config --global --list
+    8  git clone https://github.com/MaheshS08/ProblemSolving.git
+    9  cd ProblemSolving/
+   10  cd..
+   11  cd/
+   12  cd..
+   13  pwd
+   14  cd "/c/My_WorkSpace/ProblemSolving/CodeChef/Contests/MakeThemEqual.cpp"
+   15  cd:
+   16  ls
+   17  cd~
+   18  cd
+   19  cd ~/Desktop
+   20  cd /c/My_WorkSpace/ProblemSolving/CodeChef/Contests/MakeThemEqual.cpp
+   21  cd /c/My_WorkSpace/ProblemSolving/CodeChef/
+   22  git status
+   23  git add.
+   24  git add .
+   25  cd..
+   26  cd
+   27  cd /c/My_WorkSpace/ProblemSolving/CodeChef/
+   28  cd /c/My_WorkSpace/ProblemSolving/
+   29  git init
+   30  git add .
+   31  git commint -m "First"
+   32  git remote add origin https://github.com/MaheshS08/ProblemSolving.git
+   33  git push origin master
+   34  git pull --rebase origin master
+   35  git push origin master
+   36  git push -u origin master
+   37  git pull origin master
+   38  git push origin master
+   39  git commint -m "initial commit"
+   40  git commit -m "initial commit"
+   41  git add .gitignore
+   42  #!/bin/sh
+   43  # Licensed to the Apache Software Foundation (ASF) under one or more
+   44  # contributor license agreements.  See the NOTICE file distributed with
+   45  # this work for additional information regarding copyright ownership.
+   46  # The ASF licenses this file to You under the Apache License, Version 2.0
+   47  # (the "License"); you may not use this file except in compliance with
+   48  # the License.  You may obtain a copy of the License at
+   49  #
+   50  #     http://www.apache.org/licenses/LICENSE-2.0
+   51  #
+   52  # Unless required by applicable law or agreed to in writing, software
+   53  # distributed under the License is distributed on an "AS IS" BASIS,
+   54  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   55  # See the License for the specific language governing permissions and
+   56  # limitations under the License.
+   57  # -----------------------------------------------------------------------------
+   58  # Start Script for the CATALINA Server
+   59  # -----------------------------------------------------------------------------
+   60  # Better OS/400 detection: see Bugzilla 31132
+   61  os400=false
+   62  case "`uname`" in OS400*) os400=true;; esac
+   63  # resolve links - $0 may be a softlink
+   64  PRG="$0"
+   65  while [ -h "$PRG" ] ; do   ls=`ls -ld "$PRG"`;   link=`expr "$ls" : '.*-> \(.*\)$'`;   if expr "$link" : '/.*' > /dev/null; then     PRG="$link";   else     PRG=`dirname "$PRG"`/"$link";   fi; done
+   66  PRGDIR=`dirname "$PRG"`
+   67  EXECUTABLE=catalina.sh
+   68  # Check that target executable exists
+   69  if $os400; then   eval; else   if [ ! -x "$PRGDIR"/"$EXECUTABLE" ]; then     echo "Cannot find $PRGDIR/$EXECUTABLE";     echo "The file is absent or does not have execute permission";     echo "This file is needed to run this program";     exit 1;   fi; fi
+   70  exec "$PRGDIR"/"$EXECUTABLE" start "$@"
+   71  git config --list
+   72  git config --global --unset-all
+   73  git config --global --unset user.name
+   74  git config --global --unset user.email
+   75  git config --global --unset credential.helper
+   76  git config --global user.name "Akhilkumar001"
+   77  git config --global user.email "akhilkumaracha18@gmail.com"
+   78  cls
+   79  cd..
+   80  cd/
+   81  cd c:
+   82  cd My_WorkSpace/
+   83  cd WEB/
+   84  cd akhil/
+   85  cd car-wash-backend/
+   86  git init 
+   87  git add . && git commint -m "initial Commit"
+   88  cls
+   89  clear
+   90  git add . && git commint -m "initial Commit"
+   91  git add . && git commit -m "initial Commit"
+   92  cd c
+   93  cd c:
+   94  cd My_WorkSpace/
+   95  cd WEB/akhil/car-wash-backend/
+   96  git add .
+   97  git commit -m "First"
+   98  git reset
+   99  git add .
+  100  git commit -m "First"
+  101  git rm --cached -r
+  102  git rm --cached -r .
+  103  git add .
+  104  git commit -m "First"
+  105  git remote add origini https://github.com/Akhilkumar001/car-wash.git
+  106  git remote -v
+  107  git push origin main
+  108  git remote add origin https://github.com/Akhilkumar001/car-wash.git
+  109  git push origin main
+  110  git commit -m "initial commit"
+  111  git push origin main
+  112  git branch -r
+  113  git ls-remote --heads
+  114  git remote set-url origin https://github.com/Akhilkumar001/car-wash.git
+  115  git ls-remote --heads
+  116  git add .
+  117  git commit -m "initial commit"
+  118  git push origin main
+  119  git status
+  120  git push
+  121  cd c:
+  122  cd My_WorkSpace/
+  123  cd WEB/
+  124  ls
+  125  cd react
+  126  ls
+  127  cd react-learning/
+  128  cd to-do-app/
+  129  git config --list
+  130  git config --global --unset-all
+  131  git config --global user.name
+  132  git config --global user.email
+  133  git config --global --unset user.name
+  134  git config --global --unset user.email
+  135  git config --global --unset credential.helper
+  136  git config --global user.name MaheshS08
+  137  git config --
+  138  git config --list
+  139  git init
+  140  git remote add origin https://github.com/MaheshS08/react-todo-app.git
+  141  git remote -v
+  142  git add .
+  143  git commit -m "First Commit"
+  144  git config --global user.nam"
+  145  git config --global user.email "mahesh.sambharam@gmail.com"
+  146  git commit -m "First Commit"
+  147  git push origin master
+  148  git head
+  149  git ls -tree
+  150  git ls-tree
+  151  cd c:
+  152  cd My_WorkSpace/
+  153  cd WEB/
+  154  cd REACT
+  155  cd react-learning/
+  156  cd to-do-app/
+  157  git ls-tree
+  158  git ls-tree -d
+  159  git ls-tree --name-only
+  160  git status
+  161  cd c:
+  162  cd My_WorkSpace/
+  163  cd WEB/
+  164  cd react
+  165  cd react-learning/
+  166  Mahesh@Mahesh MINGW64 ~
+  167  $ cd c:
+  168  Mahesh@Mahesh MINGW64 /c
+  169  $ cd My_WorkSpace/
+  170  Mahesh@Mahesh MINGW64 /c/My_WorkSpace
+  171  $ cd WEB/
+  172  Mahesh@Mahesh MINGW64 /c/My_WorkSpace/WEB
+  173  $ cd re
+  174  REACT/                REACT COMPLETE GUIDE/ rest-api/
+  175  Mahesh@Mahesh MINGW64 /c/My_WorkSpace/WEB
+  176  $ cd react
+  177  Mahesh@Mahesh MINGW64 /c/My_WorkSpace/WEB/react
+  178  $ cd react-learning/
+  179  Mahesh@Mahesh MINGW64 /c/My_WorkSpace/WEB/react/react-learning (master)
+  180  $
+  181  https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/CarWash_Booking
+  182  git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/CarWash_Booking
+  183  git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/CarWash_Booking
+  184  git clone "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/CarWash_Booking"
+  185  git clone "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/CarWash_Booking"
+  186  git status
+  187  git branch first_branch
+  188  git status
+  189  git checkout first_branch
+  190  git status
+  191  git checkout -b
+  192  git pull origin main
+  193  git pull origin main
+  194  history>>history.txt
+  195  git checkout -b demo_branch
+  196  git push origin demo_branch
+  197  cd:
+  198  cd:
+  199  c:
+  200  cd c:
+  201  cd My_WorkSpace/
+  202  cd WEB/
+  203  cd REACT
+  204  cd react-learning/
+  205  cd CarWash_Booking/
+  206  git pull 
+  207  cd c:
+  208  cd My_WorkSpace/
+  209  cd WEB/
+  210  cd react
+  211  cd react-learning/
+  212  cd cd CarWash_Booking/
+  213  cd react-car-wash
+  214  git status
+  215  git branch
+  216  git branch demo_branch
+  217  git checkout demo_branch
+  218  git branch -D demo_branch
+  219  git push origin --delete demo_branch
+  220  cd..
+  221  cd/
+  222  cd~
+  223  git checkout master
+  224  cd..
+  225  cd ..
+  226  cd c:
+  227  cd My_WorkSpace/
+  228  cd react
+  229  cd WEB/
+  230  cd react
+  231  cd react-learning/
+  232  cd CarWash_Booking/
+  233  git branch -D demo_branch
+  234  git checkout master
+  235  cd ..
+  236  git branch -D demo_branch
+  237  git push origin --delete demo_branch
+  238  git remote -v
+  239  cd CarWash_Booking/
+  240  git push origin --delete demo_branch
+  241  git checkout -b updates
+  242  git push origin updates_branch
+  243  cd ..
+  244  git push origin updates_branch
+  245  git branch -b
+  246  git branch
+  247  git branch -r
+  248  cd CarWash_Booking/
+  249  git checkout main
+  250  git push origin updates_branch
+  251  cd ..
+  252  git push origin updates_branch
+  253  cd CarWash_Booking/
+  254  cd ..
+  255  git branch -m updates updates_branch 
+  256  git branch -a
+  257  cd CarWash_Booking/
+  258  git push origin updates_branch
+  259  git push origin updates
+  260  git branch -m updates updates_branch 
+  261  git branch
+  262  git push origin :updates updates_branch
+  263  git status
+  264  git add package-lock.json
+  265  cd react-car-wash/
+  266  git add package-lock.json
+  267  cd react-car-wash/client
+  268  git add client/package-lock.json
+  269  git add client/package.json
+  270  git add client/src/components/Home.js
+  271  git status
+  272  git commit -m "Added Dynamic number scroll"
+  273  git status
+  274  git diff --stat updates_branch/main
+  275  git diff --stat updates_branch
+  276  git diff --stat origin/main
+  277  git push origin updates_branch
+  278  git checkout main
+  279  git add .
+  280  git status
+  281  git commit -m "Updates"
+  282  git pull origin main
+  283  git init -b main
+  284  git add . && git commit -m "initial commit"
+  285  git diff
+  286  git diff --staged
+  287  git diff --name-only --cached
+  288  touch .gitignore
+  289  git diff --cached
+  290  git add .
+  291  gh repo create 
+  292  cd ..
+  293  gh repo create 
+  294  cd car-wash-react/
+  295  git commit -m "First commit"
+  296  git add .
+  297  git commit -m "First commit"
+  298  git remote add origin https://github.com/MaheshS08/react-car-wash.git
+  299  git remote -v
+  300  git push origin main
+  301  git checkout -b updates_branch
+  302  git push origin updates_branch
+  303  git config --list
+  304  cd M
+  305  cd c:
+  306  cd My_WorkSpace/
+  307  cd cd..
+  308  cd.
+  309  cd ..
+  310  cd ..
+  311  cd ..
+  312  git config
+  313  git config user.name
+  314  git config user.email
+  315  git add .
+  316  git commit -m "merging"
+  317  git checkout main
+  318  git merge updates_branch
+  319  git push origin main
+  320  git add .
+  321  git commit -m "for merging"
+  322  git checkout updates_branch
+  323  git add .
+  324  git commit -m "for merging"
+  325  git add .
+  326  git commit -m "for merging"
+  327  git push origin updates_branch
+  328  git add .
+  329  git commit -m "second merge"
+  330  git checkout main
+  331  git merge updates_branch
+  332  git checkout updates_branch
+  333  git commit
+  334  git checkout updates_branch
+  335  git checkout -f updates_branch
+  336  git add .
+  337  git commit -m "second merge"
+  338  git checkout main
+  339  git reset --hard HEAD
+  340  git checkout updates_branch
+  341  git checkout main
+  342  git add .
+  343  git commit -m "main"
+  344  git push origin main
+  345  git push -f origin main
+  346  git merge updates_branch
+  347  git merge updates_branch
+  348  git status
+  349  git commit -m "second merge"
+  350  git push origin main
+  351  git checkout updates_branch
+  352  git commit
+  353  git add .
+  354  git commit
+  355  git checkout updates_branch
+  356  git stash save /components/nav.js
+  357  git checkout updates_branch
+  358  git checkout main
+  359  git checkout updates_branch
+  360  git checkout main
+  361  git checkout updates_branch
+  362  git add .
+  363  git commit -m "sample"
+  364  git checkout main
+  365  git checkout updates_branch
+  366  git checkout main
+  367  git merge updates_branch
+  368  git checkout updates_branch
+  369  git checkout main
+  370  git push origin main
+  371  git checkout updates_branch
+  372  git pull
+  373  git pull origin updates_branch
+  374  git commit
+  375  git add .
+  376  git commit -m "On Main.js"
+  377  git push origin updates_branch
+  378  git push -f origin updates_branch
+  379  git status
+  380  git push -f origin main
+  381  git push -f origin updates_branch
+  382  history>>history.txt
