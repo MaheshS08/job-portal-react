@@ -1,6 +1,6 @@
 import "./App.css";
 import Main from "./components/Main";
-
+import Quote from "./components/Quote";
 import Navbar from "./components/Navbar";
 import Category from "./components/Category";
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Main />
      <Category/>
+     <Quote/>
     </div>
   );
 }
