@@ -14,14 +14,7 @@ const Main = () => {
 			}}
 		>
 			<div className="main">
-				<div
-					className="img-container"
-					// style={{
-					// 	backgroundImage: `url(${"https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2023/03/banner.png"})`,
-					// 	maxHeight: "100%",
-					// 	maxWidth: "100%",
-					// }}
-				>
+				<div className="img-container">
 					<img
 						src="https://jthemes.com/themes/wp/jobbox/wp-content/uploads/2023/03/banner.png"
 						alt=""
