@@ -1,7 +1,7 @@
 import React from "react";
 const Jobs = () => {
   return (
-    <>
+    <div className="header">
       <div className="jobs-1">
         <h2 className="job_head">Jobs of the day</h2>
         <p>Search and connect with the right candidates faster</p>
@@ -205,14 +205,15 @@ const Jobs = () => {
               </div>
             </div>
           </div>
-        
+         
         </div>
+        <div>
+        <button className="btn1">See more</button>
+        </div>
+        
       </div>
       
-      <div className="row-6">
-       
-      </div>
-    </>
+    </div>
   );
 };
 export default Jobs;
