@@ -1,222 +1,336 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap");
 .App {
-  text-align: center;
- 
+	text-align: center;
 }
 .col-1 {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  color: black;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	color: black;
 }
 
 .dropdown {
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-  margin-left: -38px;
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: -38px;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 5;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-color: white;
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 5;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background-color: white;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: white;
+	background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 .dropdown1:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 .dropdown2:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 .dropdown3:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 .dropdown4:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 
 .dropdown5:hover .dropdown-content {
-  display: block;
-  cursor: pointer;
+	display: block;
+	cursor: pointer;
 }
 
 .btn:hover {
-  background-color: black;
-  color: white;
+	background-color: black;
+	color: white;
 }
 
 .nav {
-  font-style: normal;
-  font-weight: 500;
-  margin-top: 50px;
-  margin-left: 119px;
-  margin-bottom:20px;
+	font-style: normal;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-left: 119px;
+	margin-bottom: 20px;
 }
 .nav .column {
-  float: left;
-  font-size: 16px;
+	float: left;
+	font-size: 16px;
 
-  text-decoration: none;
-  width: 12%;
+	text-decoration: none;
+	width: 12%;
 }
 .row {
-  width: 84%;
-  padding: 7px;
-  margin-left: 62px;
+	width: 84%;
+	padding: 7px;
+	margin-left: 62px;
 }
 .rgstr {
-  margin-left: 11px;
-  text-decoration: underline;
-  cursor: pointer;
+	margin-left: 11px;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .dropdown1 {
-  margin-left: -52px;
-  display: inline-block;
-  cursor: pointer;
+	margin-left: -52px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .dropdown2 {
-  margin-left: -44px;
-  display: inline-block;
-  cursor: pointer;
+	margin-left: -44px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .dropdown3 {
-  margin-left: -30px;
-  display: inline-block;
-  cursor: pointer;
+	margin-left: -30px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .dropdown4 {
-  margin-left: -40px;
-  display: inline-block;
-  cursor: pointer;
+	margin-left: -40px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .dropdown5 {
-  margin-left: -90px;
-  display: inline-block;
-  cursor: pointer;
+	margin-left: -90px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .btn {
-  border: none;
-  background-color: rgb(69, 69, 249);
+	border: none;
+	background-color: rgb(69, 69, 249);
 
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: -8px 0px;
-  margin-left: -21px;
-  padding: 10px 18px;
-  cursor: pointer;
-  color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: -8px 0px;
+	margin-left: -21px;
+	padding: 10px 18px;
+	cursor: pointer;
+	color: white;
 }
 
 .container {
-  border: 1px solid rgb(225, 218, 218);
-  padding: 17px 1px 0px 1px;
-  border-radius: 13px;
-  margin: 11px;
-  width: 22%;
-  float: left;
-  cursor: pointer;
+	border: 1px solid rgb(225, 218, 218);
+	padding: 17px 1px 0px 1px;
+	border-radius: 13px;
+	margin: 11px;
+	width: 22%;
+	float: left;
+	cursor: pointer;
 }
 .container:hover {
-  border: 1px solid lightblue;
-  transform: scale(1.1);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid lightblue;
+	transform: scale(1.1);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .text1 {
-  font-size: 14px;
-  padding-left: 1px;
-  color: black;
-  text-decoration: none;
+	font-size: 14px;
+	padding-left: 1px;
+	color: black;
+	text-decoration: none;
 }
 .h1-1 {
-  font-size: 13px;
+	font-size: 13px;
 }
 .h1-1 a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 .row-2 {
-  width: 97%;
-  padding: 7px;
-  margin-left: 49px;
+	width: 97%;
+	padding: 7px;
+	margin-left: 49px;
 }
-.img-container{
-  border-bottom-width: 15px;
+.img-container {
+	border-bottom-width: 15px;
 }
-.category
-{
-  margin-top: 128px;
+.category {
+	margin-top: 128px;
 }
 .main .img-container {
-  
-  /* background: #05264e; */
-  /* opacity: 0.5; */
-  background-color: #05264e;
-  /* z-index: 2; */
+	/* background: #05264e; */
+	/* opacity: 0.5; */
+	background-color: #05264e;
+	/* z-index: 2; */
 }
 .main .img-container img {
-  position: relative;
-  /* left: -220px; */
-  right: 200px;
-  height: 690px;
-  opacity: 0.2;
-  object-fit: cover;
-  /* z-index: 1; */
+	position: relative;
+	/* left: -220px; */
+	right: 200px;
+	height: 690px;
+	opacity: 0.2;
+	object-fit: cover;
+	width: 100%;
+	/* z-index: 1; */
 }
 .main .top-div {
-  width: 600px;
-  position: absolute;
-  top: 200px;
-  left: 28%;
-  z-index: 2;
-  color: white;
+	width: 600px;
+	position: absolute;
+	top: 200px;
+	left: 28%;
+	z-index: 2;
+	color: white;
 }
 .main .top-div .heading h1 {
-  font-family: Plus Jakarta Sans;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 1.2;
+	font-family: Plus Jakarta Sans;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.2;
 }
 .main .top-div .heading .color-green {
-  color: #85ff83;
+	color: #85ff83;
 }
 .main .top-div .heading-2 {
+	position: absolute;
+	top: 140px;
+	font-family: Plus Jakarta Sans;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.form-container {
+	display: flex;
+	position: relative;
+	top: 120px;
+	padding: 10px 10px 10px 20px;
+	padding-left: 20px;
+	width: 700px;
+	height: 70px;
+	align-items: center;
+	background-color: white;
+	border-radius: 8px;
+	justify-content: space-evenly;
+}
+.select-ele select {
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0px;
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+	border: none;
+	opacity: 0.4;
+}
+.select-ele select:focus {
+	outline: none;
+}
+.select-ele input {
+	font-family: Plus Jakarta Sans;
+	border: none;
+	font-size: 16px;
+	opacity: 0.6;
+	padding: 10px;
+	padding-right: 0;
+}
+.select-ele input:focus {
+	outline: none;
+}
+.form-container .select-icon img {
+	margin: auto;
+	width: 18px;
+	height: 18px;
+}
+.form-container .select-ele .select-icon img {
+	margin: auto;
+	width: 18px;
+	height: 18px;
+}
+.form-container .search-btn input {
+	outline: none;
+}
+.form-container .search-btn {
+	background-color: red;
+	/* width: 50px; */
+}
+.form-container .search-btn input {
+	font-family: Plus Jakarta Sans;
+	border: none;
+	font-size: 14px;
+	/* margin: 10px 10px 10px 15px; */
+	width: 18%;
+	padding: 14px 20px 16px 20px;
+	border-radius: 6px;
+	color: white;
+	margin-left: -110px;
+	margin-top: -25px;
+	position: absolute;
+	z-index: 5;
+	background-color: #3c65f5;
+}
+.form-container .search-btn img {
+	top: 28px;
+	left: 570px;
+	padding: auto;
+	margin-left: 6px;
+	position: absolute;
+	z-index: 10;
+	color: red;
+}
+.top-div .list-div {
+  padding: 10px;
+	position: inherit;
+	top: 320px;
+	left: 50px;
+	width: inherit;
+	font-family: Plus Jakarta Sans;
+	font-size: 14px;
+}
+.top-div .list-div a {
+	margin-left: 20px;
+	text-decoration: underline;
+}
+.top-div .list-div a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.counter-div{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   position: absolute;
-  top: 140px;
+  top:400px
+}
+.counter-div h3{
+  padding-left: 50px;
+  font-weight: bold;
   font-family: Plus Jakarta Sans;
-  font-size: 18px;
-  line-height: 1.4;
+}
+.counter-div p{
+  font-family: Plus Jakarta Sans;
+  opacity: 0.4;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: normal;
 }
