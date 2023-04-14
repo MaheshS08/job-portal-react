@@ -285,7 +285,7 @@
 .container1 img {
   height: 171px;
   width: 25%;
-  margin-left: -821px;
+  margin-left: -1023px;
   margin-top: -106px;
 }
 .jobs-1 {
@@ -422,7 +422,7 @@ width:94%;
   font-size: 14px;
   padding-left: 1px;
   width:63%;
- 
+}
 
 .form-container {
 	display: flex;
@@ -539,9 +539,9 @@ width:94%;
   font-size: 14px;
   font-weight: normal;
 }
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-left: 5px;
-}
+} */
 .text3 a
 {
   text-decoration: none;
