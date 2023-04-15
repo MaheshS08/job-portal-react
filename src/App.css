@@ -291,7 +291,7 @@
 .jobs-1 {
   float: left;
   margin-top: 64px;
-width:94%;
+  width: 94%;
   margin-bottom: 27px;
 }
 .jobs-1 p {
@@ -304,7 +304,6 @@ width:94%;
 .job_head {
   margin-left: -878px;
   font-size: 44px;
-
 }
 .container2 {
   border: 1px solid rgb(225, 218, 218);
@@ -400,7 +399,7 @@ width:94%;
   margin-top: 30px;
 }
 
-.container5{
+.container5 {
   border: 1px solid rgb(225, 218, 218);
   padding: 4px 1px 17px 1px;
   border-radius: 18px;
@@ -417,36 +416,157 @@ width:94%;
   margin-top: 12px;
 }
 
-
 .text3 {
   font-size: 14px;
   padding-left: 1px;
-  width:63%;
- 
+  width: 63%;
+
   margin-top: 10px;
   margin-left: 5px;
 }
-.text3 a
-{
+.text3 a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-.loc
-{
+.loc {
   width: 136%;
   margin-top: 47px;
   font-weight: 350;
   font-family: auto;
   color: gray;
 }
-.locimage img
-{
+.locimage img {
   width: 13%;
-    left: 100px;
-    margin-left: -64px;
-    margin-top: 44px;
+  left: 100px;
+  margin-left: -64px;
+  margin-top: 44px;
 }
-.jobs_count
-{
-  margin:76px;
+.jobs_count {
+  margin: 76px;
+}
+
+@media screen and (max-width: 580px) {
+  .row {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main .top-div {
+    position: relative;
+
+    top: -612px;
+    left: 0%;
+    width: 535px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .main .top-div .heading-2 {
+    top: 188px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container1 {
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Quote-1 .we-are {
+    width: 105%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Quote-1 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container3 {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Quote-1 .hire {
+    width: 102%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .text {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .text {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .jobs-1 {
+    width: 235%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container2 {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .row-3 {
+    width: 48%;
+    margin-left: 6px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .text3 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container5 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .jobs_count {
+    margin-left: 34px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .locimage img {
+    width: 16%;
+    left: 100px;
+    margin-left: -132px;
+    margin-top: 105px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .container5 img {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    border: 1px solid rgb(225, 218, 218);
+    padding: 17px 1px 0px 1px;
+    border-radius: 13px;
+    margin: 11px;
+    width: 82%;
+    float: left;
+    cursor: pointer;
+  }
 }
